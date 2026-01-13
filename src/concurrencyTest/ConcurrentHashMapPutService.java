@@ -2,6 +2,9 @@ package concurrencyTest;
 
 import java.util.concurrent.*;
 
+/**
+ * ConcurrentHashMap 자료형을 사용하는 것 만으로는 오퍼레이션(비즈니스로직 레벨)의 원자성을 보장할 수 없음을 테스트한다.
+ * */
 public class ConcurrentHashMapPutService {
 
     static class HashMapAccountService {

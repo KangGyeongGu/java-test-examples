@@ -1,11 +1,11 @@
 package concurrencyTest;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
+import java.util.*;
+import java.util.concurrent.*;
 
+/**
+ * HashMap 은 멀티스레드 환경에서 동시성을 보장하지 않음을 테스트한다.
+ * */
 public class HashMapAccountService {
 
     static class HashMapService {

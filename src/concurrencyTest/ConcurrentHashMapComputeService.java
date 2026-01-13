@@ -2,6 +2,9 @@ package concurrencyTest;
 
 import java.util.concurrent.*;
 
+/**
+ * 오퍼레이션(비즈니스로직 레벨)의 원자성을 보장하기 위해서는 compute() 내부 메서드 등을 사용해야 함을 테스트한다.
+ * */
 public class ConcurrentHashMapComputeService {
 
     static class HashMapAccountService {
